@@ -1,11 +1,11 @@
 
-import React, { useState, useEffect, useCallback, useRef } from 'react';
-import { Planet } from './components/Planet';
-import { Timer } from './components/Timer';
-import { EnergyBar } from './components/EnergyBar';
-import { Stats } from './components/Stats';
-import { Motivation } from './components/Motivation';
-import { StarsBackground } from './components/StarsBackground';
+import React, { useState, useEffect, useRef } from 'react';
+import { Planet } from './components/Planet.tsx';
+import { Timer } from './components/Timer.tsx';
+import { EnergyBar } from './components/EnergyBar.tsx';
+import { Stats } from './components/Stats.tsx';
+import { Motivation } from './components/Motivation.tsx';
+import { StarsBackground } from './components/StarsBackground.tsx';
 
 const FOCUS_TIME = 25 * 60; // 25 minutes
 const ENERGY_GAIN = 10;
